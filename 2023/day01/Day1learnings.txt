@@ -1,2 +1,14 @@
-Watched Ultimate DevOps Engineer Roadmap 2023 with Time Tracking Sheet
+1. Watched Ultimate DevOps Engineer Roadmap 2023 and doenloa with Time Tracking Sheet
 
+2. Write a LinkedIn post or a small article about your understanding of DevOps and what is devops
+
+Devops is a process and methodology that indicates a change in an organization's culture to automate and streamline the application development cycle so that continous integration and continous deployment of appications can happen that results in faster, quicker deployments that are automated and are of good quality that results in benefits for the customer using the applications. 
+
+
+3. What is Automation, Scaling, Infrastructure
+
+Automation is the process of converting a manual process of accomplishing a task in to an automatic self driven process via scripting or coding. Scaling is the concept of adjustment of infrastructure provisioning based on the workload where the provisioning can scale up when there is a high demand and scale down when the demand reduces. Scaling helps with business continuity and cost savings.
+
+4. Why DevOps is Important, etc
+
+Devops is important as it enables faster software development that is of good quality and enables a more efficient manitanence of existing deployments.
