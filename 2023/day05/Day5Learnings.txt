@@ -11,4 +11,8 @@ for (( i = begin; i <= end; i++ )); do
         mkdir $1$i
 done
 
-2) 
+2) Create a Script to backup all your work done till now.
+
+https://github.com/ctrajaram/bash-backup
+
+3) 
