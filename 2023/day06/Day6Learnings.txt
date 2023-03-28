@@ -1,0 +1,49 @@
+1) Create a simple file and do ls -ltr to see the details of the files refer to Notes
+
+ls -ltr filename
+
+Output:
+
+-rw-rw-r--
+
+
+
+2) Write an article about File Permissions based on your understanding from the notes.
+
+
+For the filename and output from 1 the following can be inferred:
+
+The 1st position - tells us it is a file and not a directory as directories will show a d in the 1st position
+
+The 2nd, 3rd, 4th positions that has rw_ tells the file owner has read and write permissions but not execute permissions on the file
+
+The 5th, 6th,7th position tells the group the file belongs to has read and write permissions but not execute permissions
+
+
+The 8th, 9th and 10th position tells us that any user that is not the file owner or thr group the file belongs to has just read permissions but not write and execute.
+
+As a task, change the user permissions of the file and note the changes after ls -ltr
+
+
+3) Read about ACL and try out the commands getfacl and setfacl
+
+acl are way to set permissions with additional permissions than the regular posix permissions/common permissions used with chmod command for e.g.
+
+For this we have to install the acl package for e.g. in Ubuntu using sudo apt-get install acl
+
+a) getfacl filename -> get the file access control list permissions for e.g. as below
+
+
+# file: error.log
+# owner: ubuntu
+# group: ubuntu
+user::rw-
+group::rw-
+other::r--
+
+b) setfacl - changed the file access permissions for user, group and other.
+
+setfacl -m u:username:rwx filename -> This modifies the file permissions so that the user referred to in the username will  have read, write and execute permissions for the file referred in the filename
+
+setfacl -m g:groupname:rw filename-> This modifies the file permissions so that the group referred to in the groupname will  have read and write but not execute permissions for the file referred in the filename
+
