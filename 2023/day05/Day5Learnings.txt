@@ -15,4 +15,26 @@ done
 
 https://github.com/ctrajaram/bash-backup
 
-3) 
+3) Read About Cron and Crontab, to automate the backup Script
+
+I have modified crontab -e for the backup scrfipt to run at 4:17 UTC time EVERYDAY
+
+17 4 * * * bash /home/ubuntu/bash_course/backup-script.sh
+
+
+4) Read about User Management and Let me know on Linkedin if you're ready for Day 6.
+
+I am ready for Day 6
+
+5) Create 2 users and just display their Usernames
+
+sudo useradd username1 (sudo only if needed for the user you are logged in as)
+sudo password username1
+sudo su username1
+whoami
+
+sudo useradd username2
+sudo password username2
+sudo su username2
+whoami
+
